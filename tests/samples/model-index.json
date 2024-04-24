@@ -1,0 +1,137 @@
+[
+  {
+    "name": "box",
+    "inputs": {
+      "usda": "box.usda"
+    },
+    "outputs": {
+      "gltf": "box.gltf"
+    }
+  },
+  {
+    "name": "box_normals_facevarying",
+    "inputs": {
+      "usda": "box_normals_facevarying.usda"
+    },
+    "outputs": {
+      "gltf": "box_normals_facevarying.gltf"
+    }
+  },
+  {
+    "name": "box_normals_vertex",
+    "inputs": {
+      "usda": "box_normals_vertex.usda"
+    },
+    "outputs": {
+      "gltf": "box_normals_vertex.gltf"
+    }
+  },
+  {
+    "name": "box_subset",
+    "inputs": {
+      "usda": "box_subset.usda"
+    },
+    "outputs": {
+      "gltf": "box_subset.gltf"
+    }
+  },
+  {
+    "name": "transform_and_box",
+    "inputs": {
+      "usda": "transform_and_box.usda"
+    },
+    "outputs": {
+      "gltf": "transform_and_box.gltf"
+    }
+  },
+  {
+    "name": "box_color_constant",
+    "inputs": {
+      "usda": "box_color_constant.usda"
+    },
+    "outputs": {
+      "gltf": "box_color_constant.gltf"
+    }
+  },
+  {
+    "name": "box_color_facevarying",
+    "inputs": {
+      "usda": "box_color_facevarying.usda"
+    },
+    "outputs": {
+      "gltf": "box_color_facevarying.gltf"
+    }
+  },
+  {
+    "name": "box_color_vertex",
+    "inputs": {
+      "usda": "box_color_vertex.usda"
+    },
+    "outputs": {
+      "gltf": "box_color_vertex.gltf"
+    }
+  },
+  {
+    "name": "box_uv",
+    "inputs": {
+      "usda": "box_uv.usda"
+    },
+    "outputs": {
+      "gltf": "box_uv.gltf"
+    }
+  },
+  {
+    "name": "box_material",
+    "inputs": {
+      "usda": "box_material.usda"
+    },
+    "outputs": {
+      "gltf": "box_material.gltf"
+    }
+  },
+  {
+    "name": "camera",
+    "inputs": {
+      "usda": "camera.usda"
+    },
+    "outputs": {
+      "gltf": "camera.gltf"
+    }
+  },
+  {
+    "name": "lights",
+    "inputs": {
+      "usda": "lights.usda"
+    },
+    "outputs": {
+      "gltf": "lights.gltf"
+    }
+  },
+  {
+    "name": "box_animation",
+    "inputs": {
+      "usda": "box_animation.usda"
+    },
+    "outputs": {
+      "gltf": "box_animation.gltf"
+    }
+  },
+  {
+    "name": "skeleton_animation",
+    "inputs": {
+      "usda": "skeleton_animation.usda"
+    },
+    "outputs": {
+      "gltf": "skeleton_animation.gltf"
+    }
+  },
+  {
+    "name": "skinned_tube",
+    "inputs": {
+      "usda": "skinned_tube.usda"
+    },
+    "outputs": {
+      "gltf": "skinned_tube.gltf"
+    }
+  }
+]
