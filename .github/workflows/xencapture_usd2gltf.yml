@@ -5,6 +5,8 @@ jobs:
   xencapture_usd2gltf:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
       - name: Install dependencies
         run: pip3 install build
       - name: Build package
