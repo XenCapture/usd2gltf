@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: usd2gltf
+Version: 0.3.5
+Summary: Convert USD to GLTF
+Home-page: https://github.com/mikelyndon/usd2gltf
+Author: Mike Lyndon
+Author-email: work.mike@pm.me
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: usd-core==23.11
+Requires-Dist: gltflib==1.0.13
+Requires-Dist: numpy==1.23.5
+
+# usd2gltf
