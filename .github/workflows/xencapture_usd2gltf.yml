@@ -1,6 +1,9 @@
 name: xencapture_usd2gltf
 run-name: ${{ github.actor }} is building usd2gltf
-on: [push]
+on: 
+  push:
+    tags:
+      - '*'
 jobs:
   xencapture_usd2gltf:
     runs-on: ubuntu-latest
