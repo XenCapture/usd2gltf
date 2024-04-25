@@ -14,4 +14,6 @@ jobs:
       - uses: ncipollo/release-action@v1
         with:
           tag: ${{ steps.tag_version.outputs.new_tag }}
+          name: Release ${{ steps.tag_version.outputs.new_tag }}
+          body: ${{ steps.tag_version.outputs.changelog }}
           artifacts: "dist/usd2gltf-0.3.5-py3-none-any.whl, dist/usd2gltf-0.3.5.tar.gz"
