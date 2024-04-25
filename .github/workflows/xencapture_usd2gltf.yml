@@ -1,9 +1,6 @@
 name: xencapture_usd2gltf
 run-name: ${{ github.actor }} is building usd2gltf
-on: 
-  push:
-    tags:
-      - '*'
+on: [push]
 jobs:
   xencapture_usd2gltf:
     runs-on: ubuntu-latest
@@ -16,4 +13,5 @@ jobs:
         run: python3 -m build
       - uses: ncipollo/release-action@v1
         with:
+          tag: ${{ steps.tag_version.outputs.new_tag }}
           artifacts: "dist/usd2gltf-0.3.5-py3-none-any.whl, dist/usd2gltf-0.3.5.tar.gz"
