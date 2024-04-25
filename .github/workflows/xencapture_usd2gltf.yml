@@ -2,8 +2,11 @@ name: xencapture_usd2gltf
 run-name: ${{ github.actor }} is building usd2gltf
 on: [push]
 jobs:
+  
   xencapture_usd2gltf:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
